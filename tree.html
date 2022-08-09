@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+    <style>
+        body {
+            background: url('https://myhordes.eu/build/images/assets/img/background/bg_gray.051b8650..jpg') fixed top no-repeat,#100c0b;
+            user-select: none;
+        }
+        p {
+            margin: 10px;
+            user-select: text;
+        }
+        table {
+            border-spacing: .5em;
+        }
+        td {
+            position: relative;
+            background: #5c2b20;
+            border: solid #f0d79e 1px;
+            color: #ddab76;
+            font-family: "Century Gothic", "Arial", "Trebuchet MS", Verdana, sans-serif;
+            font-size: 10pt;
+        }
+        td:first-child{
+            text-align: center;
+        }
+        .point {
+            float: right;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .action {
+            color: #f0d79e;
+            font-weight: bold;
+        }
+        img {
+            vertical-align: -25%;
+        }
+    </style>
+</head>
+<body>
+    <p style="color: red; background-color: #100c0b;">
+        Bichonne, bichon,
+        Il ne vous a pas échappé que pendant les derniers jours le forum a été animé autour de l'expérience des héros et sur pourquoi cette dernière se devait d'évoluer. A ce titre je vous présente l'expérience bichonique.
+        
+        Perdons pas de temps en salamalek.
+
+        5 Grandes catégories : Costaud, Curieux, Organisé, Vigilant, Volontaire.
+        Dans chaque catégorie sont répartit 3 talents acquérables dans un ordre précis.
+
+        D'abord les Costaud.
+
+        Quand on est costaud on peut porter plein de trucs, c'est pourquoi le premier talent du costaud c'est de pouvoir rapporter plein d'encombrants en ville. Trop facile quand on est musqué.
+        Deuxième talent en rapport avec la veille, ouais avec des gros muscles on peut mettre des coups de papattes qui font trop mal aussi, donc bonus en veille.
+        Le troisième talent est une nouvelle action bichonne permettant d'encourager nos cher veilleurs. Un grand musclé à nos côtés et on se sent en sécurité de quoi galvaniser nos cher défenseurs pétochards qui n'osent même pas veiller sans 100% de chances de survie.
+
+        Viennent les Curieux.
+
+        Il est trop mignon, il fouille partout, il fait des calins --il est à croquer--. Dès qu'il se balade le bichon curieux ne peut pas s'empecher d'aller fourrer son nez partout, et il ramène certaines de ses trouvailles personnelles en plus du contenu de votre sac.
+        Un curieux ne va pas sans une bonne dose d'amour, chaque fois que vous gagnez des pa bonus, il est si heureux qu'il vous fait gagner 1pa supplémentaire.
+        Impossible à tenir en laisse la nouvelle action du curieux vous permet de l'envoyer chercher un objet dans le batiment le plus proche de vous, et ce même si vous ne l'avez pas encore découvert (oui c'est pas comme s'il savait lire une carte de toutes façons).
+
+        Plus sérieux, les organisés sont pas là pour se laisser bouffer par le premier baveux qu'ils croisent.
+
+        Très malins (plus que vous) les bichons organisés sont capables de rapporter des objets au sol en plus de ceux de votre sac (hors encombrants).
+        Dans une ruine ils ne se laissent pas berner, au lieu de vous indiquer la direction de la sortie comme un chiot, il vous indiqué précisément le chemin à prendre pour rejoindre la sortie le plus rapidement possible.
+        Une nouvelle action de maison leur est disponible, donnez leur n'importe quelle babiole et ils partent la ranger (dans leur cachette que vous ne trouverez jamais) après quoi ils vous rapportent un objet tout droit sortit des poubelles.
+
+        Passons aux vigilant.
+
+        Toujours sur le qui-vive, méfiant et presque aggressif, des bichons dressé pour tuer. Tant que vous faites équipe avec un vigilant vous avez plus de chance de réussir vos aggressions.
+        Ils ne laissent rien au hasard, quelque soit le nombre de fois où vos voisins passent devant chez vous ils ne verront qu'un coffre vide et un bichon bien dressé.
+        Si vous lui demandez de protéger votre maison, rien ne pourra le détourner de sa mission et votre défense personnelle sera sous l'effet d'un bonus jusqu'au lendemain matin.
+
+        Déterminé et infatiguable les volontaires ne vous laisseront jamais tomber.
+
+        Un petit aller retour ? Broutille. Ils peuvent en faire deux les pattes dans la truffe.
+        Debout à la PA et bien plus sympatique qu'un réveil vous avez une chance de gagner quelque pa à la vu de son museau quand vous vous réveillez (si vous êtes encore en vie). 
+        Impossible de dormir tant qu'il n'a pas fait son exercice vous pouvez l'envoyer faire le tour de votre case comme un dératé, chaque case aura alors une chance de voir certains de ses objets régénérés.
+
+        Un petit récap pour voir plus en détail comment customiser votre machine de guerre. Prendre un talent dans une catégorie ne force pas à garder cette catégorie pour chaque autre talent. Un point de talent gagné tous les 10 picto appri.
+    </p>
+    <table id="content"></table>
+    <button id="reseter">reset</button>
+    <script src="tree.js"></script>
+</body>
+</html>
