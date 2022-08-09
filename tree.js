@@ -140,7 +140,7 @@ function gen(){
     });
 
     function create(i, idx) {
-        return i.map((e, edx) => `<td ${((((last && (last.v||0) < last.max) ? 0 : 1)+lastY) == edx)&&(last &&last==e || !last || lastY==edx-1) ? `style="background:#6c2b20;opacity:${e.v > 0 ? 1 : .7}"` : `style="opacity: ${e.v > 0 ? 1 : .5}"`} onwheel="d(${idx}, ${edx});" onclick="d(${idx}, ${edx});"><p>${e.t.replace('$', (e.v || 0)*(e.coef || 1))}</p><span class="point">${e.v || 0}/${e.max || 1}</span></td>`).join();
+        return i.map((e, edx) => `<td ${((((last && (last.v||0) < last.max) ? 0 : 1)+lastY) == edx)&&(last &&last==e || !last || lastY==edx-1) ? `style="background:#6c2b20;opacity:${e.v > 0 ? 1 : .8}"` : `style="opacity: ${e.v > 0 ? 1 : .5}"`} onwheel="d(${idx}, ${edx});" onclick="d(${idx}, ${edx});"><p>${e.t.replace('$', (e.v || 0)*(e.coef || 1))}</p><span class="point">${e.v || 0}/${e.max || 1}</span></td>`).join();
     }
 }
 
